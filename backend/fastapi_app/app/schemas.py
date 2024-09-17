@@ -2,8 +2,8 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-# class Settings(BaseModel):
-#     authjwt_secret_key: str = "2df53b63113932ba49ec264e20be7f0531c75ab834f62a2eaa37f4359fddf927"
+class Settings(BaseModel):
+    authjwt_secret_key: str = '83c0021a5fa9e2c75d2c9e5226f0b91c7415a73f077d3e1e353499d4fc68fb10'
 
 
 class RegisterSchema(BaseModel):

@@ -5,7 +5,7 @@ from fastapi_app.app import init_db
 
 
 def start():
-    run("fastapi_app.app.main:app", host="127.0.0.2", port=8002, reload=True)
+    run("fastapi_app.app.main:app", host="127.0.0.3", port=8002, reload=True)
 
 
 def main():
